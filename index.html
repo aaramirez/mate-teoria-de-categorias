@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KX76XF8R');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Teoría de categorías</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Categorías, funtores y transformaciones naturales, límites y colímites, el lema de Yoneda, adjunciones, categorías cartesianas cerradas, mónadas, álgebras iniciales y la topología algebraica vista con flechas, con las demostraciones completas de los teoremas centrales.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX76XF8R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrap" data-page="index">
+<header class="topbar"><a class="brand" href="index.html">Teoría de <b>categorías</b></a><span class="eyebrow">Curso visual e interactivo · Matemática</span><a class="al-sitio" href="https://aaramirez.github.io/">← Todos los cursos</a></header>
+<div class="layout">
+<nav class="toc" id="toc" aria-label="Ruta de aprendizaje"></nav>
+<main>
+
+<p class="aviso-curado" role="note">El material de Matemática está en proceso de curado: puede tener errores.</p>
+<header class="hero">
+  <span class="eyebrow">Curso visual e interactivo · Matemática</span>
+  <h1>La matemática de las flechas: lo que se repite en grupos, espacios y programas</h1>
+  <p class="lede">El producto de conjuntos, el de grupos, el de espacios topológicos y el par ordenado de un programa son la misma construcción. La teoría de categorías nombra esas coincidencias: deja de mirar qué son los objetos y mira cómo se relacionan. Este curso la construye desde las flechas y la composición hasta Yoneda, las adjunciones y las mónadas, con diagramas que se arrastran y se componen en cada capítulo.</p>
+</header>
+
+<section>
+  <h2>Cómo usar este curso</h2>
+  <div class="prose">
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 13 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Para quién es.</b> Para quien ya hizo Álgebra abstracta (grupos, anillos, homomorfismos, la propiedad universal del cuerpo de fracciones) y Topología (espacios, funciones continuas, productos y cocientes). Los conjuntos, las relaciones y los órdenes que se usan como primeros ejemplos están en Lógica y conjuntos. Para la parte de programación ayuda haber leído Lenguajes de programación, donde están el cálculo lambda, los tipos y las mónadas como herramienta.</p>
+    <p><b>Cómo está hecho.</b> Los mismos cuatro mundos recorren el curso: conjuntos, grupos, espacios topológicos y los tipos de un lenguaje funcional. Cada concepto (producto, límite, adjunción, mónada) se define una vez con flechas y luego se reconoce en los cuatro. Los laboratorios son diagramas vivos: se arrastran objetos, se componen flechas, se comprueba si un diagrama conmuta y se calcula un límite. Las prácticas usan Python, con un poco de Haskell en el intérprete gratuito del navegador. Es un curso de cierre: no habilita otros nodos del grafo.</p>
+  </div>
+</section>
+
+<details class="stage" id="temario" open><summary><h2><span class="pn">Empieza aquí</span> Tabla de contenido</h2></summary>
+  <div class="mods">
+    <a class="mod" href="temario.html"><span class="n">≡</span><b>Tabla de contenido</b><p>Cada capítulo con sus secciones y sus laboratorios.</p></a>
+  </div>
+</details>
+
+<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> Categorías y funtores</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="categorias"><span class="n">01</span><b>Categorías: objetos, flechas y composición</b><p>La definición, un catálogo de ejemplos y la idea de que una estructura se conoce por sus flechas.</p></div>
+    <div class="mod soon" data-id="morfismos-y-dualidad"><span class="n">02</span><b>Morfismos especiales, objetos universales y dualidad</b><p>Monomorfismos, epimorfismos e isomorfismos definidos sin mirar elementos, objetos iniciales y terminales, y el principio de dualidad.</p></div>
+    <div class="mod soon" data-id="funtores"><span class="n">03</span><b>Funtores: flechas entre categorías</b><p>Funtores covariantes y contravariantes, los olvidadizos, los libres y los representables, y qué conservan.</p></div>
+    <div class="mod soon" data-id="transformaciones-naturales"><span class="n">04</span><b>Transformaciones naturales y equivalencias de categorías</b><p>Lo natural precisado: flechas entre funtores, el doble dual, las categorías de funtores y cuándo dos categorías son la misma.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Construcciones universales</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="productos-y-coproductos"><span class="n">05</span><b>Propiedades universales: productos y coproductos</b><p>Definir un objeto por cómo se relaciona con todos los demás: el producto, el coproducto y sus formas en cada categoría.</p></div>
+    <div class="mod soon" data-id="limites-y-colimites"><span class="n">06</span><b>Límites y colímites</b><p>Ecualizadores, productos fibrados, coecualizadores y pegados, el teorema de existencia de límites y los límites dirigidos.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> Yoneda y adjunciones</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="lema-de-yoneda"><span class="n">07</span><b>Funtores representables y el lema de Yoneda</b><p>Un objeto queda determinado por las flechas que llegan a él: el lema de Yoneda con demostración y sus consecuencias.</p></div>
+    <div class="mod soon" data-id="adjunciones"><span class="n">08</span><b>Adjunciones</b><p>Pares de funtores que se corresponden: la definición por conjuntos hom y por unidad y counidad, los ejemplos clásicos y la conservación de límites.</p></div>
+    <div class="mod soon" data-id="cartesianas-cerradas-y-topos"><span class="n">09</span><b>Categorías cartesianas cerradas y topos</b><p>Las categorías donde las funciones son objetos, su relación con el cálculo lambda tipado y los topos como universos de conjuntos alternativos.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-4" open><summary><h2><span class="pn">Parte 4</span> Mónadas y programación</h2><span class="cuenta" data-etapa-cuenta="4"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="monadas"><span class="n">10</span><b>Mónadas y sus álgebras</b><p>La mónada que genera toda adjunción, las categorías de Kleisli y de Eilenberg-Moore, y los grupos como álgebras de una mónada.</p></div>
+    <div class="mod soon" data-id="categorias-y-programacion"><span class="n">11</span><b>Categorías y programación funcional: funtores, álgebras iniciales y recursión</b><p>Lo que la teoría aporta al programa: funtores y naturalidad como parametricidad, álgebras iniciales, catamorfismos y comónadas.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-5" open><summary><h2><span class="pn">Parte 5</span> Categorías en la matemática</h2><span class="cuenta" data-etapa-cuenta="5"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="topologia-algebraica"><span class="n">12</span><b>Categorías en topología algebraica</b><p>El grupo fundamental como funtor, el grupoide fundamental, Seifert-van Kampen como suma amalgamada y la homología como funtor.</p></div>
+    <div class="mod soon" data-id="categorias-monoidales"><span class="n">13</span><b>Categorías monoidales y diagramas de cuerdas</b><p>Categorías con un producto tensorial, la coherencia de Mac Lane, los diagramas de cuerdas y sus usos en circuitos, probabilidad y física.</p></div>
+  </div>
+</details>
+
+
+
+<nav class="pager" id="pager" aria-label="Capítulo anterior y siguiente"></nav>
+</main>
+</div>
+<footer><span>Curso abierto de aaramirez.github.io.</span><span>Sitio publicado: <a href="https://github.com/aaramirez/mate-teoria-de-categorias" target="_blank" rel="noopener">github.com/aaramirez/mate-teoria-de-categorias</a></span></footer>
+</div>
+<script src="assets/lab.js"></script>
+</body>
+</html>
